@@ -1,6 +1,6 @@
 # MD-RS (Under Review)
-![](figures/fig_schematic_MD-RS.pdf)
-![](figures/fig_demonstration_MD-RS.pdf)
+![schematic](figures/fig_schematic_MD-RS.svg)
+![demo](figures/fig_demonstration_MD-RS.svg)
 
 # Get Started
 
@@ -11,6 +11,22 @@
 
 ### UCR
 ![UCR Results](figures/UCR.png)
+
+### SMD
+![SMD Results](figures/SMD.png)
+
+### SMAP
+![SMAP Results](figures/SMAP.png)
+
+### MSL
+![MSL Results](figures/MSL.png)
+
+### PSM
+![PSM Results](figures/PSM.png)
+
+### SWaT
+![SWaT Results](figures/SWaT.png)
+
 
 ## Case Studies
 
