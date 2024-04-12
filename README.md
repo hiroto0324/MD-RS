@@ -1,8 +1,17 @@
 # MD-RS (Under Review)
+
+## Architecture
 ![schematic](figures/fig_schematic_MD-RS.svg)
+
+## Overview
 ![demo](figures/fig_demonstration_MD-RS.svg)
 
 # Get Started
+
+1. Install Python ..., PyTorch >= ....
+2. Download data. You can obtain all benchmarks from [Google Cloud](). All the datasets are well pre-processed.
+3. Train and evaluate. We provide the experiment scripts of all benchmarks under the folder  `./scripts`. You can reproduce the experiment results as follows:
+
 
 # Main Results
 
@@ -36,8 +45,6 @@
 ![Internalbleeding17](figures/fig_demonstration_Internalbleeding17_time-course.svg)
 
 ![Internalbleeding15](figures/fig_demonstration_Internalbleeding15_time-course.svg)
-
-![Internalbleeding6](figures/fig_demonstration_Internalbleeding6_time-course.svg)
 
 ![Internalbleeding5](figures/fig_demonstration_Internalbleeding5_time-course.svg)
 
