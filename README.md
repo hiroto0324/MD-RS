@@ -9,6 +9,9 @@
 ## Overall Results
 ![Benchmark Results](figures/KDD2024_Tables.pdf)
 
+### UCR
+![UCR Results](figures/UCR.png)
+
 ## Case Studies
 
 ## Noise Robustness Evaluation
