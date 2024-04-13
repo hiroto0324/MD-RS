@@ -52,3 +52,7 @@
 
 
 ## Noise Robustness Evaluation
+
+![small-sigma1](figures/fig_UCR_different-sigma.svg)
+
+![small-sigma2](figures/fig_UCR_different-sigma_appendix.svg)
