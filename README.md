@@ -53,11 +53,12 @@
 
 ## Noise Robustness Evaluation
 
-
+### Performance for different noise strength $\sigma$
 ![different-sigma1](figures/fig_UCR_different-small-sigma.svg)
 
 ![different-sigma2](figures/fig_UCR_different-small-sigma_appendix.svg)
 
+### Performance change rate for different noise strength $\sigma$ (baseline: \sigma=0)
 ![different-sigma_change-rate1](figures/fig_UCR_different-small-sigma_change-rate.svg)
 
 ![different-sigma_change-rate2](figures/fig_UCR_different-small-sigma_change-rate_appendix.svg)
