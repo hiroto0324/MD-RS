@@ -21,7 +21,7 @@ PA tends to make results appear more optimistic than they should.
 ## Overall Results
 
 ### UCR
-![UCR Results](figures/UCR.png)
+![UCR Results](figures/UCR_DCdetector.png)
 
 ### SMD
 ![SMD Results](figures/SMD.png)
