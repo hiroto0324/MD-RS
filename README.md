@@ -15,6 +15,8 @@
 
 # Main Results
 
+All these results were calculated without point adjustment (PA).
+
 ## Overall Results
 
 ### UCR
