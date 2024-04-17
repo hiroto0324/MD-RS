@@ -16,6 +16,7 @@
 # Main Results
 
 All of these results were calculated **without point adjustment (PA)**.
+PA tends to make results appear more optimistic than they should.
 
 ## Overall Results
 
