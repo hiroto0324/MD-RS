@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2024-04-18T15:13:40.876305</dc:date>
+    <dc:date>2024-04-18T15:40:28.805774</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -43,7 +43,7 @@ L 923.729075 34.56
 L 962.148302 34.56 
 L 962.148302 99.783529 
 z
-" clip-path="url(#p35d2e3bc5c)" style="fill: #ff7f50; stroke: #ff7f50; stroke-linejoin: miter"/>
+" clip-path="url(#pbbcda14db4)" style="fill: #ff7f50; stroke: #ff7f50; stroke-linejoin: miter"/>
    </g>
    <g id="matplotlib.axis_1"/>
    <g id="matplotlib.axis_2">
@@ -1611,7 +1611,7 @@ L 994.526769 85.984998
 L 995.976551 86.69321 
 L 996.218182 87.009037 
 L 996.218182 87.009037 
-" clip-path="url(#p35d2e3bc5c)" style="fill: none; stroke: #1f77b4; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#pbbcda14db4)" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="patch_4">
     <path d="M 144 99.783529 
@@ -1953,7 +1953,7 @@ L 923.729075 112.828235
 L 962.148302 112.828235 
 L 962.148302 178.051765 
 z
-" clip-path="url(#pc1b8e554e1)" style="fill: #ff7f50; stroke: #ff7f50; stroke-linejoin: miter"/>
+" clip-path="url(#pc7b41051ca)" style="fill: #ff7f50; stroke: #ff7f50; stroke-linejoin: miter"/>
    </g>
    <g id="matplotlib.axis_3"/>
    <g id="matplotlib.axis_4">
@@ -2140,7 +2140,7 @@ L 973.746559 150.401614
 L 973.988189 175.087059 
 L 996.218182 175.087059 
 L 996.218182 175.087059 
-" clip-path="url(#pc1b8e554e1)" style="fill: none; stroke: #1f77b4; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#pc7b41051ca)" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="patch_8">
     <path d="M 144 178.051765 
@@ -2168,7 +2168,7 @@ L 923.729075 191.096471
 L 962.148302 191.096471 
 L 962.148302 256.32 
 z
-" clip-path="url(#pa4283dd5a4)" style="fill: #ff7f50; stroke: #ff7f50; stroke-linejoin: miter"/>
+" clip-path="url(#p2cb5a514b4)" style="fill: #ff7f50; stroke: #ff7f50; stroke-linejoin: miter"/>
    </g>
    <g id="matplotlib.axis_5">
     <g id="text_4">
@@ -2329,7 +2329,7 @@ L 962.148302 194.061176
 L 962.389932 253.355294 
 L 996.218182 253.355294 
 L 996.218182 253.355294 
-" clip-path="url(#pa4283dd5a4)" style="fill: none; stroke: #1f77b4; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#p2cb5a514b4)" style="fill: none; stroke: #1f77b4; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="patch_12">
     <path d="M 144 256.32 
@@ -2344,13 +2344,13 @@ L 1036.8 256.32
   </g>
  </g>
  <defs>
-  <clipPath id="p35d2e3bc5c">
+  <clipPath id="pbbcda14db4">
    <rect x="144" y="34.56" width="892.8" height="65.223529"/>
   </clipPath>
-  <clipPath id="pc1b8e554e1">
+  <clipPath id="pc7b41051ca">
    <rect x="144" y="112.828235" width="892.8" height="65.223529"/>
   </clipPath>
-  <clipPath id="pa4283dd5a4">
+  <clipPath id="p2cb5a514b4">
    <rect x="144" y="191.096471" width="892.8" height="65.223529"/>
   </clipPath>
  </defs>
