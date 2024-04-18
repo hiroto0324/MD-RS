@@ -15,10 +15,20 @@
 
 # Main Results
 
-All of these results were calculated **without point adjustment (PA)**.
-PA tends to make results appear more optimistic than they should.
+## The Illusion of Accuracy in Point Adjustment (PA)
+In [the code for DCdetector](https://github.com/DAMO-DI-ML/KDD2023-DCdetector/tree/main), the original anomaly scores are first converted into binary prediction labels using a thresholding operation.
+After this, the true anomaly labels are referred to in order to perform Point Adjustment (PA) on the sequence (referred to as the PA sequence), which is then used as the new anomaly score.
+Performance metrics such as Affiliation precision/recall, AUC, Range AUC, and VUS are calculated based on this PA sequence in [the code for DCdetector](https://github.com/DAMO-DI-ML/KDD2023-DCdetector/tree/main).
+
+However, as shown in the example below, the PA sequence almost becomes identical to the true anomaly label sequence, resulting in performance metrics that are overly optimistic.
+
+![fig_demo_UCR_139_DCdetector](figures/fig_demo_UCR_139_DCdetector.svg)
+
 
 ## Overall Results
+
+All of these results were calculated **without point adjustment (PA)**.
+PA tends to make results appear more optimistic than they should.
 
 ### UCR
 ![UCR Results](figures/UCR_DCdetector.png)
