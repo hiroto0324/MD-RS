@@ -69,7 +69,9 @@ PA tends to make results appear more optimistic than they should, as shown above
 ![Internalbleeding14](figures/fig_demonstration_Internalbleeding14_time-course.svg)
 
 
-## Noise Robustness Evaluation
+## Input Noise Robustness Evaluation
+
+MD-RS and MD-SW show higher noise robustness than TRAKR and RC-SRE. This indicates that the Mahalanobis distance is a more noise robust anomaly score than the reconstruction error.
 
 ### Performance for different noise strength $\sigma$
 ![different-sigma1](figures/fig_UCR_different-small-sigma.svg)
