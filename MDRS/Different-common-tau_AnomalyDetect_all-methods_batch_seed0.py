@@ -1,5 +1,3 @@
-# Author: Hiroto Tamura (h-tamura@g.ecc.u-tokyo.ac.jp)
-
 import numpy as np
 from numpy.linalg import svd, inv, pinv
 import math
