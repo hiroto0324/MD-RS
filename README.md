@@ -30,7 +30,7 @@ The Small $\tau$ reservoir cannot retain past inputs for long, making it unsuita
 
 Conversely, the Large $\tau$  reservoir can retain past inputs over extended periods, which is advantageous for detecting anomalies with long-term dependencies. Nevertheless, it has the drawback of taking a long time to return to a normal state after the end of an anomalous input.
 
-The Mixed $\tau$ model is a hybrid that incorporates the best features of both the Small $\tau$ and Large $\tau$.
+The Mixed $\tau$ reservoir is a hybrid that incorporates the best features of both the Small $\tau$ and Large $\tau$ reservoirs.
 | Model |Capturing long-term dependency| Rapid return to normal state |
 | ---- | ---- | ---- |
 |Small $\tau$| $\times$  | $\checkmark$ | 
