@@ -1,6 +1,6 @@
 # Get Started
 
-1. Install Python ..., PyTorch >= ....
+1. Install Python ....
 2. Download data. You can obtain all benchmarks from [Google Cloud](). All the datasets are well pre-processed.
 3. Train and evaluate. We provide the experiment scripts of all benchmarks under the folder  `./scripts`. You can reproduce the experiment results as follows:
 
