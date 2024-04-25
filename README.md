@@ -38,9 +38,9 @@ The Mixed $\tau$ model is a hybrid that incorporates the best features of both t
 |Mixed $\tau$ (ours)| $\checkmark$ | $\checkmark$|
 
 <div style="text-align: center;"> 
-<img src="figures/fig_demo_different-tau_UCR_139.svg" width="400">
-<img src="figures/fig_demo_different-tau_UCR_133.svg" width="400">
-<img src="figures/fig_demo_different-tau_UCR_136.svg" width="400">
+<img src="figures/fig_demo_different-tau_UCR_139.svg" width="380">
+<img src="figures/fig_demo_different-tau_UCR_133.svg" width="380">
+<img src="figures/fig_demo_different-tau_UCR_136.svg" width="380">
 </div>
 
 # Get Started
