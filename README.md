@@ -1,3 +1,9 @@
+# Get Started
+
+1. Install Python ..., PyTorch >= ....
+2. Download data. You can obtain all benchmarks from [Google Cloud](). All the datasets are well pre-processed.
+3. Train and evaluate. We provide the experiment scripts of all benchmarks under the folder  `./scripts`. You can reproduce the experiment results as follows:
+
 # MD-RS (Under Review)
 
 ## Architecture
@@ -63,12 +69,6 @@ The Mixed $\tau$ reservoir is a hybrid that incorporates the best features of bo
 |![image](figures/fig_demo_different-tau_UCR_139.svg) |   ![image](figures/fig_demo_different-tau_UCR_133.svg)|
 |:--:|:--:|
 |*Capturing long-term dependency.*|*Rapid return to normal state.* |
-
-# Get Started
-
-1. Install Python ..., PyTorch >= ....
-2. Download data. You can obtain all benchmarks from [Google Cloud](). All the datasets are well pre-processed.
-3. Train and evaluate. We provide the experiment scripts of all benchmarks under the folder  `./scripts`. You can reproduce the experiment results as follows:
 
 
 # Main Results
