@@ -15,9 +15,11 @@ Methods that use sliding windows as feature vectors, such as DAMP, MD-SW, and ma
 - **Prolonged Detection Bias**: If an anomaly is shorter than the window size, the window continues to output high anomaly scores as long as it encompasses the anomalous interval. Consequently, this tends to result in longer durations of anomaly detection than actually exist.
 
 On the other hand, in reservoir computing using the leaky integrator model, the influence of past inputs exponentially fades as follows:
+
 $$
 \tau \dot{\mathbf{x}} = - \mathbf{x} + J \mathbf{\phi}(\mathbf{x}) + V \mathbf{f}^{\rm in}.
 $$
+
 This fading effect enables the quick detection of the onset of anomalies (resolving *Delayed Onset Detection*), and allows the anomaly scores to decrease as soon as the anomaly ends (addressing *Prolonged Detection Bias*). These advantages make RC-based models capable of **delay-free anomaly detection**, effectively identifying anomalous intervals without excess or deficit, even in online manners.
 
 
