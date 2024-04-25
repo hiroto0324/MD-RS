@@ -90,7 +90,7 @@ However, as shown in the example below, the PA sequence almost becomes identical
 
 ## Overall Results
 
-Reservoir computing-based methods have less delay compared to sliding windows-based techniques, which means that even when using performance metrics that tolerate delay, such as Range AUC or Volume Under the Surface (VUS), there is little difference from raw AUC metrics. 
+Reservoir computing-based methods have **less delay** compared to sliding windows-based techniques, which means that even when using performance metrics that tolerate delay, such as Range AUC or Volume Under the Surface (VUS), there is little difference from raw AUC metrics. 
 
 All of these results were calculated **without point adjustment (PA)**.
 PA tends to make results appear more optimistic than they should, as shown above.
