@@ -31,9 +31,11 @@ This fading effect enables the quick detection of the onset of anomalies (resolv
 
 In standard RC models, reservoir neurons typically share a common time constant $\tau$. However, in this study, we introduce neurons with diverse time constants into the reservoir, in order to enhance the flexibility of the reservoir's response to inputs [Perez+, 2021] [Tanaka+, 2022].
 The implementation is detailed as follows:
+
 $$
 \Gamma \dot{\mathbf{x}} = - \mathbf{x} + J \mathbf{\phi}(\mathbf{x}) + V \mathbf{f}^{\rm in},
 $$
+
 where $\Gamma = \text{diag}(\tau_1, \tau_2, \ldots, \tau_N)$.
 
 In this study, the time constants $\tau_1, \tau_2, \ldots, \tau_N$ are determined as follows:
@@ -87,6 +89,8 @@ However, as shown in the example below, the PA sequence almost becomes identical
 
 
 ## Overall Results
+
+Reservoir computing-based methods have less delay compared to sliding windows-based techniques, which means that even when using performance metrics that tolerate delay, such as Range AUC or Volume Under the Surface (VUS), there is little difference from raw AUC metrics. 
 
 All of these results were calculated **without point adjustment (PA)**.
 PA tends to make results appear more optimistic than they should, as shown above.
