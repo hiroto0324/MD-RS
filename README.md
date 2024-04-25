@@ -1,7 +1,7 @@
 # MD-RS (Under Review)
 
 ## Architecture
-<img src="figures/fig_schematic_MD-RS.svg" width="500">
+<img src="figures/fig_schematic_MD-RS.svg" width="800">
 
 ## Overview
 ![demo](figures/fig_demonstration_MD-RS.svg)
