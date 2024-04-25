@@ -6,6 +6,19 @@
 ## Overview
 ![demo](figures/fig_demonstration_MD-RS.svg)
 
+|![image](figures/fig_schematic_MD-RS.svg)|
+|:--:| 
+| *Architectiure.*|
+
+|![image](figures/fig_demonstration_MD-RS.svg)|
+|:--:| 
+| *Overview of Online Time-Series Anomaly Detection.*|
+
+
+|![image](figures/fig_schematic_MD-RS.svg) |   ![image](figures/fig_demonstration_MD-RS.svg)|
+|:--:|:--:|
+|*Architecture.*|*Overview.* |
+
 ## Mixed Time Constants
 
 In standard RC models, reservoir neurons typically share a common time constant $\tau$. However, in this study, we introduce neurons with diverse time constants into the reservoir, in order to enhance the flexibility of the reservoir's response to inputs [Perez+, 2021] [Tanaka+, 2022].
