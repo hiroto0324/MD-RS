@@ -6,6 +6,41 @@
 ## Overview
 ![demo](figures/fig_demonstration_MD-RS.svg)
 
+## Mixed Time Constants
+
+In standard RC models, reservoir neurons typically share a common time constant $\tau$. However, in this study, we introduce neurons with diverse time constants into the reservoir, in order to enhance the flexibility of the reservoir's response to inputs [Perez+, 2021] [Tanaka+, 2022].
+The implementation is detailed as follows:
+$$
+\Gamma \dot{\mathbf{x}} = - \mathbf{x} + J \mathbf{\phi}(\mathbf{x}) + V \mathbf{f}^{\rm in},
+$$
+where $\Gamma = \text{diag}(\tau_1, \tau_2, \ldots, \tau_N)$.
+
+In this study, the time constants $\tau_1, \tau_2, \ldots, \tau_N$ are determined as follows:
+1.  A small time constant $\tau_\text{S}$ and a large time constant $\tau_\text{L}$ with $\tau_\text{S}<\tau_\text{L}$ are established.
+2. The $\tau$-mixing ratio $r\in[0, 1]$ is set.
+3. The ratio of the number of neurons with time constant $\tau_\text{S}$ to those with $\tau_\text{L}$ is adjusted to be $(1-r):r$.
+4. The assignment of $\tau_\text{S}$ or $\tau_\text{L}$ to $\tau_1, \tau_2, \ldots, \tau_N$ is randomized.
+
+## Common $\tau$ vs. Mixed $\tau$
+For demonstration, we compare two common $\tau$ models: the Small $\tau$ model ($\tau = 0.01$) and the Large $\tau$ model ($\tau = 0.025$), along with a Mixed $\tau$ model ($\tau_{\rm S}=0.01, \tau_{\rm L}=0.025, r=0.9$). 
+
+According to the magnitude of $\tau$, the reservoir exponentially forgets its past states. 
+
+The Small $\tau$ reservoir cannot retain past inputs for long, making it unsuitable for capturing long-term dependencies in anomalies. However, it quickly returns to a normal state once the anomalous input ends. 
+
+Conversely, the Large $\tau$  reservoir can retain past inputs over extended periods, which is advantageous for detecting anomalies with long-term dependencies. Nevertheless, it has the drawback of taking a long time to return to a normal state after the end of an anomalous input.
+
+The Mixed $\tau$ model is a hybrid that incorporates the best features of both the Small $\tau$ and Large $\tau$.
+| Model |Capturing long-term dependency| Rapid return to normal state |
+| ---- | ---- | ---- |
+|Small $\tau$| $\times$  | $\checkmark$ | 
+|Large $\tau$| $\checkmark$ | $\times$ |
+|Mixed $\tau$ (ours)| $\checkmark$ | $\checkmark$|
+
+![demo_different-tau2](figures/fig_demo_different-tau_UCR_139.svg)
+![demo_different-tau3](figures/fig_demo_different-tau_UCR_133.svg)
+![demo_different-tau1](figures/fig_demo_different-tau_UCR_136.svg)
+
 # Get Started
 
 1. Install Python ..., PyTorch >= ....
