@@ -6,6 +6,25 @@
 ## Overview
 ![demo](figures/fig_demonstration_MD-RS.svg)
 
+## Delay Comparison: Sliding Windows vs. Reservoir Computing
+
+Methods that use sliding windows as feature vectors, such as DAMP, MD-SW, and many deep learning techniques, utilize a fixed window size, which presents the following disadvantages:
+
+
+- **Delayed Onset Detection**: When an anomaly begins, the majority of the window's elements still reflect normal inputs. As a result, this delays the detection of the onset of the anomaly.
+- **Prolonged Detection Bias**: If an anomaly is shorter than the window size, the window continues to output high anomaly scores as long as it encompasses the anomalous interval. Consequently, this tends to result in longer durations of anomaly detection than actually exist.
+
+On the other hand, in reservoir computing using the leaky integrator model, the influence of past inputs exponentially fades as follows:
+$$
+\tau \dot{\mathbf{x}} = - \mathbf{x} + J \mathbf{\phi}(\mathbf{x}) + V \mathbf{f}^{\rm in}.
+$$
+This fading effect enables the quick detection of the onset of anomalies (resolving *Delayed Onset Detection*), and allows the anomaly scores to decrease as soon as the anomaly ends (addressing *Prolonged Detection Bias*). These advantages make RC-based models capable of **delay-free anomaly detection**, effectively identifying anomalous intervals without excess or deficit, even in online manners.
+
+
+|![image](figures/fig_demo_delay-free_UCR_136.svg) |   ![image](figures/fig_demo_delay-free_UCR_138.svg)|
+|:--:|:--:
+|*Delayed Onset Detection in Sliding Windows.*|*Prolonged Detection Bias in Sliding Windows.* |   
+
 ## Mixed Time Constants
 
 In standard RC models, reservoir neurons typically share a common time constant $\tau$. However, in this study, we introduce neurons with diverse time constants into the reservoir, in order to enhance the flexibility of the reservoir's response to inputs [Perez+, 2021] [Tanaka+, 2022].
