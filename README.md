@@ -37,12 +37,13 @@ The Mixed $\tau$ reservoir is a hybrid that incorporates the best features of bo
 |Large $\tau$| $\checkmark$ | $\times$ |
 |Mixed $\tau$ (ours)| $\checkmark$ | $\checkmark$|
 
-<div style="text-align: center;"> 
-<img src="figures/fig_demo_different-tau_UCR_139.svg" width="500">
-  *Capturing long-term dependency*
-<img src="figures/fig_demo_different-tau_UCR_133.svg" width="500">
-  *Rapid return to normal state*
-</div>
+|<img src="figures/fig_demo_different-tau_UCR_139.svg" width="500">|
+|:--:| 
+| *Capturing long-term dependency* |
+
+|<img src="figures/fig_demo_different-tau_UCR_133.svg" width="500">|
+|:--:| 
+| *Rapid return to normal state*|
 
 # Get Started
 
