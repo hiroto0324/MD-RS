@@ -116,16 +116,22 @@ PA tends to make results appear more optimistic than they should, as shown above
 
 ## Case Studies
 
+### UCR_139
 ![Internalbleeding20](figures/fig_demonstration_Internalbleeding20_time-course.svg)
 
+### UCR_138
 ![Internalbleeding19](figures/fig_demonstration_Internalbleeding19_time-course.svg)
 
+### UCR_136
 ![Internalbleeding17](figures/fig_demonstration_Internalbleeding17_time-course.svg)
 
+### UCR_134
 ![Internalbleeding15](figures/fig_demonstration_Internalbleeding15_time-course.svg)
 
+### UCR_141
 ![Internalbleeding5](figures/fig_demonstration_Internalbleeding5_time-course.svg)
 
+### UCR_133
 ![Internalbleeding14](figures/fig_demonstration_Internalbleeding14_time-course.svg)
 
 
