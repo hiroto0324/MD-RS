@@ -449,6 +449,13 @@ if __name__ == "__main__":
     folder_path = f'{benchmark_path}/data'
     result_path = f'{benchmark_path}/results'
     plot_path = f'{benchmark_path}/plots'
+    analysis_path = f'{benchmark_path}/analysis'
+
+    # Create directories if they do not exist
+    os.makedirs(folder_path, exist_ok=True)
+    os.makedirs(result_path, exist_ok=True)
+    os.makedirs(plot_path, exist_ok=True)
+    os.makedirs(analysis_path, exist_ok=True)
 
     # continual_learning = True
     continual_learning = False
