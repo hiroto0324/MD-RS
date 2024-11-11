@@ -1,4 +1,4 @@
-# Overview of MD-RS
+# Overview
 
 ## Architecture
 <img src="figures/fig_schematic_MD-RS.svg" width="800">
@@ -48,7 +48,7 @@ python main.py --benchmark UCR --method MDRS
 - Runtime analysis is stored in `analysis` directory within each benchmark folder.
 
 
-# Details of MD-RS (Under Review)
+# Details (Under Review)
 
 ## Delay Comparison: Sliding Windows vs. Reservoir Computing
 
