@@ -40,11 +40,12 @@ python main.py --benchmark UCR --method MDRS
 ## Architecture
 <img src="figures/fig_schematic_MD-RS.svg" width="800">
 
-## Overview
+## Demonstration of Time-Series Anomaly Detection using MD-RS (UCR_139)
 
-|![image](figures/fig_demonstration_MD-RS.svg) |  ![demo](figures/fig_UCR_AUC_PR_wide.svg)|
-|:--:|:--:
-|*Example of Time-Series Anomaly Detection using MD-RS (UCR_139).* | *Performance vs. Runtime (UCR Dataset).* |  
+![image](figures/fig_demonstration_MD-RS.svg)
+
+## Result Overview| Performance vs. Runtime (UCR Dataset)
+![demo](figures/fig_UCR_AUC_PR_wide.svg)  
 
 
 ## Delay Comparison: Sliding Windows vs. Reservoir Computing
