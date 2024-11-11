@@ -14,15 +14,15 @@ pip install -r requirements.txt
 
 1. Download benchmark datasets from  [Google Cloud]().
 
-2. **Organize data**:
-Place datasets in **benchmarks/{dataset_name}/data**.
+2. Organize data:
+Place datasets in `benchmarks/{dataset_name}/data`.
 
 ## Running the Code
 
 Run the main script with your chosen options:
 
 ```bash
-python main.py --benchmark UCR --method SPE
+python main.py --benchmark UCR --method MDRS
 ```
 
 - Supported benchmarks: `UCR, SMD, SMAP, MSL, PSM, SWaT`
