@@ -1,5 +1,8 @@
 # Overview
 
+## Paper
+https://www.techrxiv.org/doi/full/10.36227/techrxiv.22678774.v1
+
 ## Architecture
 <img src="figures/fig_schematic_MD-RS.svg" width="800">
 
