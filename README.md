@@ -31,7 +31,8 @@ python main.py --benchmark UCR --method MDRS
 
 ## Results
 
-Results are saved in `results` and `plots` directories within each benchmark folder. Runtime analysis is stored in `analysis`.
+- Results are saved in `results` and `plots` directories within each benchmark folder.
+- Runtime analysis is stored in `analysis`.
 
 
 # MD-RS (Under Review)
