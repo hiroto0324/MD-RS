@@ -41,7 +41,11 @@ python main.py --benchmark UCR --method MDRS
 <img src="figures/fig_schematic_MD-RS.svg" width="800">
 
 ## Overview
-![demo](figures/fig_demonstration_MD-RS.svg)
+
+|![image](figures/fig_demonstration_MD-RS.svg) |  ![demo](figures/fig_UCR_AUC_PR_wide.svg)|
+|:--:|:--:
+|*Example of Time-Series Anomaly Detection using MD-RS (UCR_139).* | *Performance vs. Runtime (UCR Dataset).* |  
+
 
 ## Delay Comparison: Sliding Windows vs. Reservoir Computing
 
