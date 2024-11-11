@@ -1,3 +1,16 @@
+# Overview of MD-RS
+
+## Architecture
+<img src="figures/fig_schematic_MD-RS.svg" width="800">
+
+## Demonstration of Time-Series Anomaly Detection
+
+![image](figures/fig_demonstration_MD-RS.svg)
+
+## Experimental Highlights (UCR Dataset)
+![demo](figures/fig_UCR_AUC_PR_wide.svg)  
+
+
 # Getting Started
 
 ## Prerequisites
@@ -35,18 +48,7 @@ python main.py --benchmark UCR --method MDRS
 - Runtime analysis is stored in `analysis` directory within each benchmark folder.
 
 
-# MD-RS (Under Review)
-
-## Architecture
-<img src="figures/fig_schematic_MD-RS.svg" width="800">
-
-## Demonstration of Time-Series Anomaly Detection using MD-RS (UCR_139)
-
-![image](figures/fig_demonstration_MD-RS.svg)
-
-## Result Overview| Performance vs. Runtime (UCR Dataset)
-![demo](figures/fig_UCR_AUC_PR_wide.svg)  
-
+# Details of MD-RS (Under Review)
 
 ## Delay Comparison: Sliding Windows vs. Reservoir Computing
 
