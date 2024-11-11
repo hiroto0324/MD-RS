@@ -104,21 +104,6 @@ The Mixed $\tau$ reservoir is a hybrid that incorporates the best features of bo
 
 # Main Results
 
-## Note: Illusion of Performance in Point Adjustment (PA)
-In [the code for DCdetector](https://github.com/DAMO-DI-ML/KDD2023-DCdetector/tree/main), the original anomaly scores are first converted into binary prediction labels using a thresholding operation.
-After this, the true anomaly labels are referred to in order to perform Point Adjustment (PA) on the sequence (referred to as the PA sequence), which is then used as the new anomaly score.
-Performance metrics such as Affiliation precision/recall, AUC, Range AUC, and VUS are calculated based on this PA sequence in [the code for DCdetector](https://github.com/DAMO-DI-ML/KDD2023-DCdetector/tree/main).
-
-However, as shown in the example below, the PA sequence almost becomes identical to the true anomaly label sequence, resulting in performance metrics that are overly optimistic.
-
-![fig_demo_UCR_139_DCdetector](figures/fig_demo_UCR_139_DCdetector.svg)
-
-| Method                      | AUC ROC     | PR AUC      | Max F1 Score |
-|-----------------------------|-------------|-------------|--------------|
-| DCdetector (Anomaly Score)  | 0.499013335 | 0.037474823 | 0.025104603  |
-| DCdetector (PA sequence)    | 0.998706897 | 0.965116279 | 0.963855422  |
-
-
 ## Overall Results
 
 Reservoir computing-based methods have **less delay** compared to sliding windows-based techniques, which means that even when using performance metrics that tolerate delay, such as Range AUC or Volume Under the Surface (VUS), there is little difference from raw AUC metrics. 
@@ -179,3 +164,18 @@ MD-RS and MD-SW show higher noise robustness than TRAKR and RC-SRE. This indicat
 ![different-sigma_change-rate1](figures/fig_UCR_different-small-sigma_change-rate.svg)
 
 ![different-sigma_change-rate2](figures/fig_UCR_different-small-sigma_change-rate_appendix.svg)
+
+## Note: Illusion of Performance in Point Adjustment (PA)
+In [the code for DCdetector](https://github.com/DAMO-DI-ML/KDD2023-DCdetector/tree/main), the original anomaly scores are first converted into binary prediction labels using a thresholding operation.
+After this, the true anomaly labels are referred to in order to perform Point Adjustment (PA) on the sequence (referred to as the PA sequence), which is then used as the new anomaly score.
+Performance metrics such as Affiliation precision/recall, AUC, Range AUC, and VUS are calculated based on this PA sequence in [the code for DCdetector](https://github.com/DAMO-DI-ML/KDD2023-DCdetector/tree/main).
+
+However, as shown in the example below, the PA sequence almost becomes identical to the true anomaly label sequence, resulting in performance metrics that are overly optimistic.
+
+![fig_demo_UCR_139_DCdetector](figures/fig_demo_UCR_139_DCdetector.svg)
+
+| Method                      | AUC ROC     | PR AUC      | Max F1 Score |
+|-----------------------------|-------------|-------------|--------------|
+| DCdetector (Anomaly Score)  | 0.499013335 | 0.037474823 | 0.025104603  |
+| DCdetector (PA sequence)    | 0.998706897 | 0.965116279 | 0.963855422  |
+
