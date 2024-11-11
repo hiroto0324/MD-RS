@@ -1,3 +1,56 @@
+# Getting Started
+
+## Prerequisites
+
+1. Python 3.8 or higher: Download Python.
+
+
+- Install dependencies:
+
+```bash
+pip install -r requirements.txt
+
+## Data Preparation
+
+Download benchmark datasets:
+
+UCR: UCR Anomaly Detection Datasets
+
+requirements.txtSMD: NASA SMAP and MSL datasets
+
+SWaT: SWaT dataset
+
+PSM: Refer to the documentation for sources.
+
+Organize data:
+Place datasets in benchmarks/{dataset_name}/data:
+
+benchmarks/
+|-- UCR/
+|   |-- data/
+|       |-- 001_35000_52000_52620.txt
+|-- SMD/
+|   |-- data/
+|       |-- train/
+|       |-- test/
+|       |-- test_label/
+
+Running the Code
+
+Run the main script with your chosen options:
+
+python main.py --benchmark UCR --method SPE
+
+Supported benchmarks: UCR, SMD, SMAP, MSL, PSM, SWaT
+
+Methods: SPE, TRAKR, MDRS, MDSW_fixed, MDSW_adjusted
+
+Results
+
+Results are saved in results and plots directories within each benchmark folder. Runtime analysis is stored in analysis.
+
+Example
+
 # Get Started
 
 1. Install Python ....
