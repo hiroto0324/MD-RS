@@ -2,8 +2,7 @@
 
 ## Prerequisites
 
-1. Python 3.8 or higher: Download Python.
-
+- Install Python 3.8 or higher.
 
 - Install dependencies:
 
@@ -13,50 +12,27 @@ pip install -r requirements.txt
 
 ## Data Preparation
 
-Download benchmark datasets:
+1. Download benchmark datasets from  [Google Cloud]().
 
-UCR: UCR Anomaly Detection Datasets
+2. **Organize data**:
+Place datasets in **benchmarks/{dataset_name}/data**.
 
-requirements.txtSMD: NASA SMAP and MSL datasets
-
-SWaT: SWaT dataset
-
-PSM: Refer to the documentation for sources.
-
-Organize data:
-Place datasets in benchmarks/{dataset_name}/data:
-
-benchmarks/
-|-- UCR/
-|   |-- data/
-|       |-- 001_35000_52000_52620.txt
-|-- SMD/
-|   |-- data/
-|       |-- train/
-|       |-- test/
-|       |-- test_label/
-
-Running the Code
+## Running the Code
 
 Run the main script with your chosen options:
 
+```bash
 python main.py --benchmark UCR --method SPE
+```
 
-Supported benchmarks: UCR, SMD, SMAP, MSL, PSM, SWaT
+- Supported benchmarks: `UCR, SMD, SMAP, MSL, PSM, SWaT`
 
-Methods: SPE, TRAKR, MDRS, MDSW_fixed, MDSW_adjusted
+- Methods: `SPE, TRAKR, MDRS, MDSW_fixed, MDSW_adjusted`
 
-Results
+## Results
 
-Results are saved in results and plots directories within each benchmark folder. Runtime analysis is stored in analysis.
+Results are saved in `results` and `plots` directories within each benchmark folder. Runtime analysis is stored in `analysis`.
 
-Example
-
-# Get Started
-
-1. Install Python ....
-2. Download data. You can obtain all benchmarks from [Google Cloud](). All the datasets are well pre-processed.
-3. Train and evaluate. We provide the experiment scripts of all benchmarks under the folder  `./scripts`. You can reproduce the experiment results as follows:
 
 # MD-RS (Under Review)
 
