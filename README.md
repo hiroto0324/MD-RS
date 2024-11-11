@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## Data Preparation
 
-1. Download benchmark datasets from  [Google Cloud]().
+1. Download benchmark datasets following (https://github.com/elisejiuqizhang/TS-AD-Datasets).
 
 2. Organize data:
 Place datasets in `benchmarks/{dataset_name}/data`.
@@ -32,7 +32,7 @@ python main.py --benchmark UCR --method MDRS
 ## Results
 
 - Results are saved in `results` and `plots` directories within each benchmark folder.
-- Runtime analysis is stored in `analysis`.
+- Runtime analysis is stored in `analysis` directory within each benchmark folder.
 
 
 # MD-RS (Under Review)
