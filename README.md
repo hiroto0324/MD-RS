@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## Data Preparation
 
-1. Download benchmark datasets following (https://github.com/elisejiuqizhang/TS-AD-Datasets).
+1. Download time-series anomaly detection benchmark datasets following (https://github.com/elisejiuqizhang/TS-AD-Datasets).
 
 2. Organize data:
 Place datasets in `benchmarks/{dataset_name}/data`.
