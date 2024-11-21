@@ -11,7 +11,7 @@ https://www.techrxiv.org/doi/full/10.36227/techrxiv.22678774.v1
 ![image](figures/fig_demonstration_MD-RS.svg)
 
 ## Experimental Highlights (UCR Dataset)
-![demo](figures/fig_UCR_AUC_PR_wide.svg)  
+![image](figures/fig_UCR_AUC_PR_wide.svg)  
 
 
 # Getting Started
